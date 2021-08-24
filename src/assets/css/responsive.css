@@ -1,0 +1,411 @@
+@media (max-width: 1500px) {  
+    .events-items {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 25px;
+    }
+    .card-block-area {
+        grid-gap: 15px;
+    }
+    .modulebtn {
+        width: 243px;
+    }
+    .header-wrapper {
+        padding: 0px 15px 0px 15px;
+    }
+    .content-wrapper {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .program-img img {
+        max-width: 90%;
+    }
+    .event-icons i {
+        font-size: 56px;
+    }
+    .contact-list ul li {
+        font-size: 14px;
+    }
+    .outline-slide-active .owl-item.active.center {
+        top: -41px;
+    }
+
+    .event-text h5 {
+        font-size: 12px;
+    }
+    .event-text p {
+        font-size: 11px;
+    }
+    .single-event-item {
+        height: 173px;
+    }
+
+}
+@media (min-width: 1200px) and (max-width: 1300px) {  
+    .activities-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .info-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .theme-box .contact-list ul li a {
+        margin-left: 0px;
+    }
+    .outline-slide-active .owl-item.active.center {
+        top: -35px;
+    }
+}
+@media (max-width: 1199px) {  
+    .white-box {
+        padding: 30px 30px;
+    }
+    .events-items {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+    }
+    .user-profile-img img {
+        width: 100px;
+        height: 100px;
+    }
+    .user-profile-img {
+        flex: 0 0 auto;
+    }
+    .quick-link a {
+        font-size: 14px;
+    }
+    .activities-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .info-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .outline-slide-active .owl-nav .owl-prev, .outline-slide-active .owl-nav .owl-next {
+        font-size: 50px;
+        left: -66px;
+    }
+    .outline-slide-active .owl-nav .owl-next {
+        font-size: 50px;
+        right: -66px;
+        left: auto;
+    }
+    .outline-content-box {
+        padding: 0px 70px;
+    }
+    .contact-list ul li {
+        font-size: 12px;
+    }
+    .cover-phot {
+        height: 214px;
+    }
+    .profile-img.abs-img {
+        height: 160px;
+        width: 160px;
+    }
+    .outline-slide-active .owl-item.active.center {
+        top: -36px;
+    }
+    .white-box {
+        padding: 30px 10px;
+    }
+    .card-text {
+        min-height: 166px;
+    }
+
+    .calender-wrapp td {
+        padding: 18px 18px;
+    }
+    .calender-wrapp table {
+        width: 350px;
+    }
+    .calender-wrapp #calendari {
+        height: 310px;
+        width: 351px;
+    }
+    .calender-wrapper {
+        height: 370px;
+    }
+
+}
+
+@media (max-width: 991px) {  
+    .user-btn-text {
+        display: none;
+    }
+    .single-profile {
+        flex-wrap: wrap;
+    }
+    .user-profile-img {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .program-img img {
+        max-width: 400px;
+    }
+    .card-block-area {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+    }
+    .user-menu.dropdown-menu{
+        width: 180px;
+       transform: translate(-65%, 47px) !important;
+       -webkit-transform: translate(-65%, 47px) !important;
+       -moz-transform: translate(-65%, 47px) !important;
+       -ms-transform: translate(-65%, 47px) !important;
+       -o-transform: translate(-65%, 47px) !important;
+    }
+    .activities-items {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px 10px;
+    }
+    .activitis-area {
+        grid-template-columns: 1fr;
+    }
+    .program-descrip-wrap {
+        padding-right: 0px;
+    }
+    .outline-content-box {
+        padding: 0px 20px;
+    }
+    .outline-slide-active .owl-nav .owl-prev, .outline-slide-active .owl-nav .owl-next {
+        font-size: 27px;
+        left: -24px;
+    }
+    .more-info-wrapper {
+        grid-template-columns: 1fr;
+
+    }
+    .info-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .outline-slide-active .owl-nav .owl-next {
+        font-size: 27px;
+        right: -24px;
+        left: auto;
+    }
+    .contact-box {
+        flex-wrap: wrap;
+    }
+    .contact-img {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .single-sidebar {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .user-page-sidebar {
+        margin-top: 30px;
+    }
+
+    .outline-slide-active .owl-item.active.center {
+        top: -27px;
+    }
+    .event-text h5 {
+        font-size: 13px;
+    }
+    .event-text p {
+        font-size: 12px;
+    }
+    .single-event-item {
+        height: 187px;
+    }
+    .single-event-item {
+        height: 172px;
+    }
+    .ex-pb-140{
+        padding-bottom: 40px;
+    }
+
+
+}
+
+@media (max-width: 767px) {  
+    .sidebar-menu {
+        width: 60px;
+        padding: 0px;
+        left: -60px;
+        top: 60px;
+        height: calc(100vh - 60px);
+        transition: .3s;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+    }
+    .main-menu ul li a {
+        font-size: 20px;
+    }
+    .logo-area a h3 {
+        font-size: 18px;
+    }
+    .search-area {
+        display: none;
+    }
+    .main-content {
+        margin-left: 0px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .header-wrapper {
+        height: 60px;
+    }
+    .notifiation-area {
+        height: 60px;;
+    }
+
+    .program-descrip-wrap {
+        padding-right: 0px;
+    }
+    .events-items {
+        grid-gap: 12px 10px;
+    }
+    .paraents-meeting-content {
+        margin-top: 30px;
+    }
+    .single-card-block {
+        min-height: auto;
+    }
+    .user-img {
+        margin-right: 0px;
+    }
+    .notifiation-area {
+        height: 60px;
+        width: 50px;
+    }
+    .notification-icon i {
+        font-size: 17px;
+    }
+    .user-btn-area {
+        margin-left: 10px;
+    }
+
+    .single-modiule-btn {
+        flex-wrap: wrap;
+    }
+    .activitis-area {
+        grid-template-columns: 1fr;
+    }
+
+    .activities-items {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px 10px;
+    }
+    .outline-slide-active .owl-item.active.center {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    .outline-slide-active .owl-stage-outer {
+        padding: 0px 0px;
+        padding-bottom: 30px;
+    }
+    .info-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cover-phot {
+        height: 142px;
+    }
+    .profile-img.abs-img {
+        height: 120px;
+        width: 120px;
+        top: 56%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .user-cover-image {
+        margin-bottom: 82px;
+    }
+
+    .user-content-text-wrapper {
+        padding: 0px 15px 25px 15px;
+    }
+    .doc-name {
+        flex: 0 0 auto;
+        width: auto;
+        margin-right: 20px;
+    }
+
+    .single-check {
+        width: 70px;
+    }
+    .single-check label p {
+        line-height: 1;
+    }
+    .contact-icon i {
+        font-size: 38px;
+    }
+    .calender-wrapp td {
+        padding: 18px;
+    }
+    .calender-wrapper {
+        height: 318px;
+    }
+    .calender-wrapp td span.men {
+        font-size: 16px;
+    }
+    .outline-slide-active .owl-item.active.center {
+        top: 0px;
+    }
+
+    .logo-area a img {
+        width: 148px;
+    }
+
+    .calender-wrapp #calendari {
+        height: 310px;
+        width: 269px;
+    }
+    .calender-wrapp table {
+        width: 99%;
+    }
+    .hover-menu-wrapper {
+        padding: 25px 20px;
+    }
+    .hover-menu-wrapper ul li a {
+        padding-bottom: 47px;
+    }
+    .checked-doc {
+        right: 2px;
+        top: 2px;
+    }
+    .white-box {
+        padding: 30px 15px;
+    }
+    .content-wrapper {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+}
+
+@media (max-width: 575px) { 
+    .program-img img {
+        max-width: 100%;
+    }
+    .card-block-area {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+    .user-profile {
+        grid-template-columns: 1fr;
+    }
+    .user-profile-img {
+        margin-right: 25px;
+        margin-bottom: 15px;
+    }
+    .modiule-btns.page-2 .single-modiule-btn p {
+        margin-top: 2px;
+    }
+    .activities-items {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px 10px;
+    }
+
+}
+
+
+
+
+
