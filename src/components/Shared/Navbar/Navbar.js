@@ -2,7 +2,10 @@ import React from 'react';
 import "../../../assets/css/style.css";
 import "../../../assets/css/responsive.css";
 import logo from "../../../assets/img/SVLogo.svg";
-import user from "../../../assets/img/user.png"
+import user from "../../../assets/img/user.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faBell } from '@fortawesome/free-regular-svg-icons';
 
 const Navbar = () => {
    return (
@@ -21,7 +24,7 @@ const Navbar = () => {
                {/* <!-- search-area --> */}
                <div className="search-area position-relative">
                   <input type="text" placeholder="Search" />
-                  <span><i className="fas fa-search"></i></span>
+                  <span><FontAwesomeIcon icon={faSearch} /></span>
                </div>
                {/* <!-- search-area --> */}
 
@@ -38,7 +41,7 @@ const Navbar = () => {
               <!-- notification --> */}
                <div className="notifiation-area">
                   <div className="notification-icon">
-                     <i className="fas fa-bell"></i>
+                     <FontAwesomeIcon className="fas" icon={faBell} />
                      <span>2</span>
                   </div>
                </div>

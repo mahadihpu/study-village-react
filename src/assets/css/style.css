@@ -630,26 +630,28 @@ textarea:focus{
 }
 
 .outline-content-box {
-	padding: 0px 130px;
+	padding: 0px 130px !important;
 }
 .single-sldie-outline button {
-	width: 100%;
-	margin-top: 10px;
+	width: 100% !important;
+	margin-top: 10px !important;
 }
 
 .outline-slide-active .owl-item.active.center {
-	transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	-o-transform: scale(1.2);
-	top: -57px;
+	transform: scale(1.2) !important;
+	-webkit-transform: scale(1.2) !important;
+	-moz-transform: scale(1.2) !important;
+	-ms-transform: scale(1.2) !important;
+	-o-transform: scale(1.2) !important;
+	top: -57px !important;
 }
 .outline-slide-active .owl-stage-outer {
-	padding-top: 130px;
-	padding-bottom: 50px;
+	padding-top: 130px !important;
+	padding-bottom: 50px !important;
 }
-
+.outline-slide-active .owl-dots{
+	display: none;
+}
 .more-info-text-wrapper{
 	margin-top: 40px;
 }
@@ -660,17 +662,17 @@ textarea:focus{
 }
 .outline-slide-active .owl-nav .owl-prev,
 .outline-slide-active .owl-nav .owl-next{
-	position: absolute;
-	left: -82px;
-	top: 50%;
-	transform: translateY(-50%);
-	font-size: 80px;
-	font-weight: 600;
+	position: absolute !important;
+	left: -82px !important;
+	top: 50% !important;
+	transform: translateY(-50%) !important;
+	font-size: 80px !important;
+	font-weight: 600 !important;
 }
 .outline-slide-active .owl-nav .owl-next {
-	left: auto;
-	right: -82px;
-	font-size: 80px;
+	left: auto !important;
+	right: -82px !important;
+	font-size: 80px !important;
 }
 .checked-doc {
 	position: absolute;
@@ -683,19 +685,19 @@ textarea:focus{
 	line-height: 1;
 }
 .single-sldie-outline button {
-	width: 100%;
-	margin-top: 10px;
-	background: #C8C8C8;
+	width: 100% !important;
+	margin-top: 10px !important;
+	background: #C8C8C8 !important;
 }
 
 .single-sldie-outline:hover button.btn {
-	background: #C8C8C8;
-	color: #fff;
+	background: #C8C8C8 !important;
+	color: #fff !important;
 }
 
 .single-sldie-outline.active button.btn {
-	background: #182935;
-	color: #fff;
+	background: #182935 !important;
+	color: #fff !important;
 }
 
 .info-items{
@@ -1104,9 +1106,6 @@ hr {
 	display: inline-block;
 }
 
-
-
-
 .calender-wrapp #calendari {
 	margin: 20px 0;
 	position: relative;
@@ -1266,10 +1265,9 @@ td:nth-child(6)>span {
 	margin-bottom: 5px;
 }
 .calender-wrapper {
-	background: #E6E6E6;
 	border-radius: 5px;
-	height: 460px;
-	max-width: 580px;
+	height: 550px;
+	max-width: 550px;
 	display: flex;
 	align-items: center;
 	justify-content: center;

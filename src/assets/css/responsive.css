@@ -26,7 +26,7 @@
         font-size: 14px;
     }
     .outline-slide-active .owl-item.active.center {
-        top: -41px;
+        top: -41px !important;
     }
 
     .event-text h5 {
@@ -51,7 +51,7 @@
         margin-left: 0px;
     }
     .outline-slide-active .owl-item.active.center {
-        top: -35px;
+        top: -35px !important;
     }
 }
 @media (max-width: 1199px) {  
@@ -79,16 +79,16 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .outline-slide-active .owl-nav .owl-prev, .outline-slide-active .owl-nav .owl-next {
-        font-size: 50px;
-        left: -66px;
+        font-size: 50px !important;
+        left: -66px !important;
     }
     .outline-slide-active .owl-nav .owl-next {
-        font-size: 50px;
-        right: -66px;
-        left: auto;
+        font-size: 50px !important;
+        right: -66px !important;
+        left: auto !important;
     }
     .outline-content-box {
-        padding: 0px 70px;
+        padding: 0px 70px !important;
     }
     .contact-list ul li {
         font-size: 12px;
@@ -101,7 +101,7 @@
         width: 160px;
     }
     .outline-slide-active .owl-item.active.center {
-        top: -36px;
+        top: -36px !important;
     }
     .white-box {
         padding: 30px 10px;
@@ -109,19 +109,9 @@
     .card-text {
         min-height: 166px;
     }
-
-    .calender-wrapp td {
-        padding: 18px 18px;
-    }
-    .calender-wrapp table {
-        width: 350px;
-    }
-    .calender-wrapp #calendari {
-        height: 310px;
-        width: 351px;
-    }
     .calender-wrapper {
         height: 370px;
+        margin: 150px 0 !important;
     }
 
 }
@@ -163,11 +153,11 @@
         padding-right: 0px;
     }
     .outline-content-box {
-        padding: 0px 20px;
+        padding: 0px 20px !important;
     }
     .outline-slide-active .owl-nav .owl-prev, .outline-slide-active .owl-nav .owl-next {
-        font-size: 27px;
-        left: -24px;
+        font-size: 27px !important;
+        left: -24px !important;
     }
     .more-info-wrapper {
         grid-template-columns: 1fr;
@@ -177,9 +167,9 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .outline-slide-active .owl-nav .owl-next {
-        font-size: 27px;
-        right: -24px;
-        left: auto;
+        font-size: 27px !important;
+        right: -24px !important;
+        left: auto !important;
     }
     .contact-box {
         flex-wrap: wrap;
@@ -197,7 +187,7 @@
     }
 
     .outline-slide-active .owl-item.active.center {
-        top: -27px;
+        top: -27px !important;
     }
     .event-text h5 {
         font-size: 13px;
@@ -290,15 +280,15 @@
         grid-gap: 20px 10px;
     }
     .outline-slide-active .owl-item.active.center {
-        transform: scale(1);
-        -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        -ms-transform: scale(1);
-        -o-transform: scale(1);
+        transform: scale(1) !important;
+        -webkit-transform: scale(1) !important;
+        -moz-transform: scale(1) !important;
+        -ms-transform: scale(1) !important;
+        -o-transform: scale(1) !important;
     }
     .outline-slide-active .owl-stage-outer {
-        padding: 0px 0px;
-        padding-bottom: 30px;
+        padding: 0px 0px !important;
+        padding-bottom: 30px !important;
     }
     .info-items {
         grid-template-columns: repeat(1, 1fr);
